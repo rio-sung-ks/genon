@@ -38,9 +38,9 @@ if (data_json_str.match(/}\s*{/)) {
     }
 }
 
-const HOST = $rdb_host;
-const PORT = Number($rdb_port);
-const USER = $rdb_user;
+const HOST = $rdb_host; // dwmyoung-mysql9.mysql.database.azure.com
+const PORT = Number($rdb_port); // 3306
+const USER = $rdb_user; // dwmyoung
 const PASSWORD = $rdb_password;
 const DATABASE = 'uploaded';
 
